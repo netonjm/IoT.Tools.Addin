@@ -1,0 +1,106 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net461</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="MonoDevelop.Addins" Version="0.4.4" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CommandHandlers\" />
+    <Folder Include="templates\" />
+    <Folder Include="icons\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="templates\icons\project-iot-32.png" />
+    <None Remove="templates\icons\project-iot-32%402x.png" />
+    <None Remove="templates\icons\project-iot-32~dark.png" />
+    <None Remove="templates\icons\project-iot-32~dark%402x.png" />
+    <None Remove="templates\icons\project-iot-32~dark~sel.png" />
+    <None Remove="templates\icons\project-iot-32~dark~sel%402x.png" />
+    <None Remove="templates\icons\project-iot-32~sel.png" />
+    <None Remove="templates\icons\project-iot-32~sel%402x.png" />
+    <None Remove="templates\icons\project-iot-template.png" />
+    <None Remove="templates\icons\project-iot-template%402x.png" />
+    <None Remove="templates\icons\project-iot-template~dark.png" />
+    <None Remove="templates\icons\project-iot-template~dark%402x.png" />
+    <None Remove="templates\Xamarin.Templates.IoT.0.0.1.nupkg" />
+    <None Remove="icons\platform-iot-16.png" />
+    <None Remove="icons\platform-iot-16%402x.png" />
+    <None Remove="icons\platform-iot-16~dark.png" />
+    <None Remove="icons\platform-iot-16~dark%402x.png" />
+    <None Remove="icons\platform-iot-16~dark~sel.png" />
+    <None Remove="icons\platform-iot-16~dark~sel%402x.png" />
+    <None Remove="icons\platform-iot-16~sel.png" />
+    <None Remove="icons\platform-iot-16~sel%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="templates\icons\project-iot-32.png">
+      <LogicalName>project-iot-32.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="templates\icons\project-iot-32%402x.png">
+      <LogicalName>project-iot-32@2x.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="templates\icons\project-iot-32~dark.png">
+      <LogicalName>project-iot-32~dark.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="templates\icons\project-iot-32~dark%402x.png">
+      <LogicalName>project-iot-32~dark@2x.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="templates\icons\project-iot-32~dark~sel.png">
+      <LogicalName>project-iot-32~dark~sel.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="templates\icons\project-iot-32~dark~sel%402x.png">
+      <LogicalName>project-iot-32~dark~sel@2x.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="templates\icons\project-iot-32~sel.png">
+      <LogicalName>project-iot-32~sel.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="templates\icons\project-iot-32~sel%402x.png">
+      <LogicalName>project-iot-32~sel@2x.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="templates\icons\project-iot-template.png">
+      <LogicalName>project-iot-template.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="templates\icons\project-iot-template%402x.png">
+      <LogicalName>project-iot-template@2x.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="templates\icons\project-iot-template~dark.png">
+      <LogicalName>project-iot-template~dark.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="templates\icons\project-iot-template~dark%402x.png">
+      <LogicalName>project-iot-template~dark@2x.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="icons\platform-iot-16.png">
+      <LogicalName>platform-iot-16.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="icons\platform-iot-16%402x.png">
+      <LogicalName>platform-iot-16@2x.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="icons\platform-iot-16~dark.png">
+      <LogicalName>platform-iot-16~dark.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="icons\platform-iot-16~dark%402x.png">
+      <LogicalName>platform-iot-16~dark@2x.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="icons\platform-iot-16~dark~sel.png">
+      <LogicalName>platform-iot-16~dark~sel.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="icons\platform-iot-16~dark~sel%402x.png">
+      <LogicalName>platform-iot-16~dark~sel@2x.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="icons\platform-iot-16~sel.png">
+      <LogicalName>platform-iot-16~sel.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="icons\platform-iot-16~sel%402x.png">
+      <LogicalName>platform-iot-16~sel@2x.png</LogicalName>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AddinFile Include="templates\Xamarin.Templates.IoT.0.0.1.nupkg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </AddinFile>
+  </ItemGroup>
+  <ItemGroup>
+    <AddinReference Include="Xamarin.IoT.Addin" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionModel>
+    <Runtime>
+    </Runtime>
+
+    <Extension path = "/MonoDevelop/Ide/Commands/Tools">
+        <Command id = "Xamarin.VisualStudio.IoT.CommandHandlers.SshCommandHandler"
+            _description = "Open SSH Shell"
+            defaultHandler = "Xamarin.VisualStudio.IoT.CommandHandlers.SshCommandHandler"
+            _label = "SSH Shell"
+            _displayName = "Open SSH Shell" />
+    </Extension>
+
+
+       <Extension path="/MonoDevelop/Ide/Templates">
+            <Template
+            id="Xamarin.IoT.Forms.App.CSharp"
+            _overrideDescription="Creates a new Xamarin.IoT Forms project."
+            path="templates/Xamarin.Templates.IoT.0.0.1.nupkg"
+            icon="md-iot-project"
+            imageId="md-iot-project"
+            category="iot/app/general"/>
+    </Extension>
+</ExtensionModel>
