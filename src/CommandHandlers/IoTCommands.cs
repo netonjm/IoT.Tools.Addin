@@ -41,7 +41,7 @@ namespace Xamarin.VisualStudio.IoT.CommandHandlers
 			var monitor = new ProgressMonitor (cs);
 			try {
 				var console = ExternalConsoleFactory.Instance.CreateConsole (!pauseExternalConsole, monitor.CancellationToken);
-				oper = Runtime.ProcessService.StartConsoleProcess ("/bin/bash", $"-c 'ssh {server.Username}@{server.HostName}'",
+				oper = Runtime.ProcessService.StartConsoleProcess ("ssh", $"{server.Username}@{server.IpAddress.ToString ()}",
 							new FilePath ("$HOME"), console, null);
 
 				var stopper = monitor.CancellationToken.Register (oper.Cancel);

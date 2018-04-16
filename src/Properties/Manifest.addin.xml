@@ -11,6 +11,9 @@
             _displayName = "Open SSH Shell" />
     </Extension>
 
+    <Extension path = "/MonoDevelop/Ide/MainMenu/Tools">
+        <CommandItem insertafter="Xamarin.VisualStudio.IoT.CommandHandlers.DefaultOpenDeviceManagerHandler" id = "Xamarin.VisualStudio.IoT.CommandHandlers.SshCommandHandler" />
+    </Extension>
 
        <Extension path="/MonoDevelop/Ide/Templates">
             <Template
