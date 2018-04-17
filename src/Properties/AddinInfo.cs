@@ -28,12 +28,12 @@ using Mono.Addins;
 using Mono.Addins.Description;
 
 [assembly: Addin (
-	"IoT.Tools.Addin",
+	"IoT.Tools",
 	Namespace = "IoT.Tools.Addin",
-	Version = "1.0"
+	Version = MonoDevelop.BuildInfo.Version
 )]
 
-[assembly: AddinName ("IoT.Tools.Addin")]
+[assembly: AddinName ("IoT.Tools")]
 [assembly: AddinCategory ("IDE extensions")]
-[assembly: AddinDescription ("IoT.Tools.Addin")]
-[assembly: AddinAuthor ("Mikayla Hutchinson")]
+[assembly: AddinDescription ("A subset of tools and templates to make to make IoT support sweeter")]
+[assembly: AddinAuthor ("Jose Medrano")]
