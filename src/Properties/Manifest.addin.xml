@@ -17,11 +17,36 @@
 
        <Extension path="/MonoDevelop/Ide/Templates">
             <Template
-            id="Xamarin.IoT.Forms.App.CSharp"
-            _overrideDescription="Creates a new Xamarin.IoT Forms project."
+            id="Xamarin.IoT.Forms.CSharp"
+            _overrideName="Forms App"
             path="templates/Xamarin.Templates.IoT.0.0.1.nupkg"
             icon="md-iot-project"
             imageId="md-iot-project"
             category="iot/app/general"/>
+
+            <Template
+            id="HapSharp.IoT.App.CSharp"
+            _overrideName="HapSharp Console App"
+            path="templates/Xamarin.Templates.IoT.0.0.1.nupkg"
+            icon="md-iot-project"
+            imageId="md-iot-project"
+            category="iot/app/general"/>
+
+            <Template
+            id="IoTSharp.App.CSharp"
+            _overrideName="Hub Console App"
+            path="templates/Xamarin.Templates.IoT.0.0.1.nupkg"
+            icon="md-iot-project"
+            imageId="md-iot-project"
+            category="iot/app/general"/>
+
+            <Template
+            id="Xamarin.IoT.WinForms.CSharp"
+            _overrideName="WinForms App"
+            path="templates/Xamarin.Templates.IoT.0.0.1.nupkg"
+            icon="md-iot-project"
+            imageId="md-iot-project"
+            category="iot/app/general"/>
+        
     </Extension>
 </ExtensionModel>
