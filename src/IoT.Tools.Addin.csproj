@@ -96,7 +96,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <AddinFile Include="templates\Xamarin.Templates.IoT.0.0.1.nupkg">
+    <AddinFile Include="templates\IoT.Tools.Templates.0.0.1.nupkg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </AddinFile>
   </ItemGroup>
