@@ -1,0 +1,21 @@
+﻿{
+  "author": "Microsoft",
+  "classifications": [
+    "iot",
+    "xamarin",
+    "winforms"
+  ],
+  "name": "Xamarin.IoT WinForms App",
+  "groupIdentity": "Xamarin.IoT.WinForms",
+  "defaultName": "App",
+  "description": "Creates a new WinForms project with IoT support.",
+  "identity": "Xamarin.IoT.WinForms.CSharp",
+  "shortName": "iot-winforms",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "NewApp",
+  "preferNameDirectory": true,
+  "primaryOutputs": [ { "path": "NewApp.csproj" } ]
+}

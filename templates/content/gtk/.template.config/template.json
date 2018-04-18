@@ -1,0 +1,21 @@
+﻿{
+  "author": "Microsoft",
+  "classifications": [
+    "iot",
+    "xamarin",
+    "desktop"
+  ],
+  "name": "Xamarin.IoT Gtk App",
+  "groupIdentity": "Xamarin.IoT.Gtk",
+  "defaultName": "App",
+  "description": "Creates a new Gtk Desktop project with IoT support",
+  "identity": "Xamarin.IoT.Gtk.CSharp",
+  "shortName": "iot-gtk",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "NewApp",
+  "preferNameDirectory": true,
+  "primaryOutputs": [ { "path": "NewApp.csproj" } ]
+}

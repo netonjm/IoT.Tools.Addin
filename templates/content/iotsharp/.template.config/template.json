@@ -1,0 +1,21 @@
+﻿{
+  "author": "Microsoft",
+  "classifications": [
+    "iot",
+    "xamarin",
+    "console"
+  ],
+  "name": "Xamarin.IoT Hub Console App",
+  "groupIdentity": "IoTSharp.App",
+  "defaultName": "App",
+  "description": "Creates a new Hub console application with IoT support",
+  "identity": "IoTSharp.App.CSharp",
+  "shortName": "iot-iotsharp-app",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "NewApp",
+  "preferNameDirectory": true,
+  "primaryOutputs": [ { "path": "NewApp.csproj" } ]
+}

@@ -1,0 +1,21 @@
+﻿{
+  "author": "Microsoft",
+  "classifications": [
+    "iot",
+    "xamarin",
+    "console"
+  ],
+  "name": "Xamarin.IoT HapSharp Host App",
+  "groupIdentity": "Xamarin.IoT.Template",
+  "defaultName": "App",
+  "description": "Creates a new HapSharp Host project with IoT support",
+  "identity": "HapSharp.IoT.App.CSharp",
+  "shortName": "iot-hapsharp-app",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "NewApp",
+  "preferNameDirectory": true,
+  "primaryOutputs": [ { "path": "NewApp.csproj" } ]
+}
