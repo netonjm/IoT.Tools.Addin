@@ -16,6 +16,11 @@ pack: submodules
 install:
 	msbuild IoT.Tools.Addin.sln $(ARGS) /p:InstallAddin=true
 
+template:
+	./install.sh
+	rm -rf src/templates/IoT.Tools.Templates.0.0.1.nupkg
+	mv IoT.Tools.Templates.0.0.1.nupkg src/templates
+
 nuget-download:
 	# nuget restoring
 	if [ ! -f nuget.exe ]; then \
