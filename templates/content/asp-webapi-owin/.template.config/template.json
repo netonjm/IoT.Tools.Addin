@@ -1,0 +1,21 @@
+﻿{
+  "author": "Microsoft",
+  "classifications": [
+    "iot",
+    "xamarin",
+    "web"
+  ],
+  "name": "Xamarin.IoT ASP.NET Web API Owin",
+  "groupIdentity": "ASP.NET.Web.Api.Owin",
+  "defaultName": "App",
+  "description": "Creates a new Hub console application with IoT support",
+  "identity": "ASP.NET.Web.Api.Owin.CSharp",
+  "shortName": "asp-net-web-api-owin",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "NewApp",
+  "preferNameDirectory": true,
+  "primaryOutputs": [ { "path": "NewApp.csproj" } ]
+}
