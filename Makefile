@@ -2,8 +2,8 @@
 CONFIG?=Debug
 ARGS:=/p:Configuration="${CONFIG}" $(ARGS)
 
-all: submodules check-dependencies
-	msbuild src/build.proj $(ARGS)
+all: submodules
+	msbuild IoT.Tools.Addin.sln $(ARGS)
 
 clean:
 	find . -type d -name bin -exec rm -rf {} \;

@@ -55,5 +55,21 @@
             icon="md-iot-project"
             imageId="md-iot-project"
             category="iot/app/desktop"/>
+
+           <Template
+            id="Xamarin.IoT.Xwt.CSharp"
+            _overrideName="Xwt App (Gtk#)"
+            path="templates/IoT.Tools.Templates.0.0.1.nupkg"
+            icon="md-iot-project"
+            imageId="md-iot-project"
+            category="iot/app/desktop"/>
+        
+            <Template
+            id="ASP.NET.Web.Api.Owin.CSharp"
+            _overrideName="ASP.NET Web API App (Owin)"
+            path="templates/IoT.Tools.Templates.0.0.1.nupkg"
+            icon="md-iot-project"
+            imageId="md-iot-project"
+            category="iot/app/aspnet"/>
     </Extension>
 </ExtensionModel>

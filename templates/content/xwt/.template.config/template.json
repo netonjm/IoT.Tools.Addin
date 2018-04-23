@@ -1,0 +1,21 @@
+﻿{
+  "author": "Microsoft",
+  "classifications": [
+    "iot",
+    "xamarin",
+    "desktop"
+  ],
+  "name": "Xamarin.IoT Xwt App",
+  "groupIdentity": "Xamarin.IoT.Xwt",
+  "defaultName": "App",
+  "description": "Creates a new Xwt Desktop project with IoT support",
+  "identity": "Xamarin.IoT.Xwt.CSharp",
+  "shortName": "iot-xwt",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "NewApp",
+  "preferNameDirectory": true,
+  "primaryOutputs": [ { "path": "NewApp.csproj" } ]
+}
