@@ -1,0 +1,21 @@
+﻿{
+  "author": "Microsoft",
+  "classifications": [
+    "iot",
+    "xamarin",
+    "forms"
+  ],
+  "name": "Xamarin.IoT Forms App",
+  "groupIdentity": "Xamarin.IoT.Forms",
+  "defaultName": "App",
+  "description": "Creates a new Xamarin.Forms project with IoT support.",
+  "identity": "Xamarin.IoT.Forms.FSharp",
+  "shortName": "iot-forms",
+  "tags": {
+    "language": "F#",
+    "type": "project"
+  },
+  "sourceName": "NewApp",
+  "preferNameDirectory": true,
+  "primaryOutputs": [ { "path": "NewApp.fsproj" } ]
+}
