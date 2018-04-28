@@ -24,6 +24,15 @@
             imageId="md-iot-project"
             category="iot/app/desktop"/>
 
+
+             <Template
+            id="ASP.NET.Web.Api.Owin"
+            _overrideName="Forms App"
+            path="templates/XamarinAndroidTemplatesPack.3.0.0.nupkg"
+            icon="md-iot-project"
+            imageId="md-iot-project"
+            category="iot/app/desktop"/>
+
             <Template
             id="HapSharp.IoT.App.CSharp"
             _overrideName="HapSharp App"
