@@ -28,12 +28,13 @@ using Mono.Addins;
 using Mono.Addins.Description;
 
 [assembly: Addin (
-	"IoT.Tools",
-	Namespace = "IoT.Tools.Addin",
-	Version = MonoDevelop.BuildInfo.Version
+	"IoT.Extras",
+	Namespace = "MonoDevelop",
+	Version = MonoDevelop.BuildInfo.Version,
+	Category = "Mobile Development"
 )]
 
-[assembly: AddinName ("IoT.Tools")]
+[assembly: AddinName ("Internet of Things (IoT) extras")]
 [assembly: AddinCategory ("IDE extensions")]
-[assembly: AddinDescription ("A subset of tools and templates to make to make IoT support sweeter")]
+[assembly: AddinDescription ("Templates for Console (HapSharp and IoTSharp), Desktop (Forms, WinForms, Gtk and Xwt) and web (ASP.NET Web API) applications to improve your productivity creating projects with some additional tools to make IoT sweeter")]
 [assembly: AddinAuthor ("Jose Medrano")]
